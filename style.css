@@ -17,10 +17,6 @@
     justify-content: center;
   }
   body .container #home_section_id .home_section_class .home_section_content {
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-size: 2.2rem;
-    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +53,52 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 8vh;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_name {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title {
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
+    color: #00C6C3;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vh 5vw 1vh 5vw;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
+    color: white;
+    color: #080E2F;
+    color: #00C6C3;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 5vh 20vw 5vh 20vw;
   }
 }
 @media only screen and (orientation: landscape) {
@@ -103,5 +145,58 @@
     height: 24vw;
     width: 24vw;
     border-radius: 50%;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8vh;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_name {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title {
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
+    color: #00C6C3;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 1vh 5vw 1vh 5vw;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
+    color: white;
+    color: #080E2F;
+    color: #00C6C3;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 5vh 20vw 5vh 20vw;
   }
 }/*# sourceMappingURL=style.css.map */
