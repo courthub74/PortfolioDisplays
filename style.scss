@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+// First Blue
+$firstblue: #58a6ff;
+
+// WHOLE THING
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+// MOBILE PORTRAIT
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: $darkblue;
+        .container {
+            // HOME SECTION
+            #home_section_id {
+                .home_section_class {
+                    background-color: $darkblue;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .home_section_content {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(2rem, 2.2rem, 3rem);
+                        // font-size: 2.5rem;
+                        font-weight: bold;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5vw;
+                        .back_head_shot {
+                            width: 64vw;
+                            height: 64vw;
+                            background-color: $portfolios;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .home_headshot {
+                                width: 58vw;
+                                height: 58vw;
+                                border-radius: 50%;
+                                background-color: $darkblue;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                #headshot {
+                                    height: 52vw;
+                                    width: 52vw;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                        .home_section_words {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MOBILE LANDSCAPE
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: $nextgreen;
+        .container {
+            // HOME SECTION
+            #home_section_id {
+                .home_section_class {
+                    background-color: #146166;
+                    background-color: $darkblue;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .home_section_content {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(2rem, 2.2rem, 3rem);
+                        // font-size: 2.5rem;
+                        font-weight: bold;
+                        display: flex;
+                        // flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5vw;
+                        .back_head_shot {
+                            width: 30vw;
+                            height: 30vw;
+                            background-color: $portfolios;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .home_headshot {
+                                width: 27vw;
+                                height: 27vw;
+                                border-radius: 50%;
+                                background-color: $darkblue;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                #headshot {
+                                    height: 24vw;
+                                    width: 24vw;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
