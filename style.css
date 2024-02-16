@@ -63,7 +63,7 @@
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_name {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 2.2rem;
+    font-size: 7vw;
     font-weight: bold;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title {
@@ -73,14 +73,16 @@
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
     color: #00C6C3;
+    color: rgb(148, 151, 197);
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 5vw;
     padding: 1vh 5vw 1vh 5vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 4vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
     border: 1px solid #36395D;
@@ -90,20 +92,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
     color: white;
-    color: #080E2F;
-    color: #00C6C3;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
+    font-size: 4vw;
+    font-weight: lighter;
     padding: 5vh 20vw 5vh 20vw;
   }
 }
 @media only screen and (orientation: landscape) {
   body {
-    background-color: #00313E;
+    background-color: #080E2F;
   }
   body .container #home_section_id .home_section_class {
     background-color: #146166;
@@ -172,9 +174,10 @@
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
     color: #00C6C3;
-    font-family: "Roboto", sans-serif;
+    color: rgb(148, 151, 197);
     font-size: 1.2rem;
-    padding: 1vh 5vw 1vh 5vw;
+    font-weight: lighter;
+    padding: 3vh 5vw 3vh 5vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
     color: white;
@@ -185,18 +188,18 @@
     border: 1px solid #36395D;
     border-radius: 5px;
     background-color: #36395D;
-    height: 5vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
     color: white;
-    color: #080E2F;
-    color: #00C6C3;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
-    padding: 5vh 20vw 5vh 20vw;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 0vh 10vw 0vh 10vw;
   }
 }/*# sourceMappingURL=style.css.map */

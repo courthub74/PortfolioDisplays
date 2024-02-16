@@ -21,6 +21,7 @@ $firstblue: #58a6ff;
 
 // Learn More
 $learnmoretext: #00567F;
+$learnmoregrey: rgb(148, 151, 197);
 
 // WHOLE THING
 * {
@@ -88,8 +89,9 @@ $learnmoretext: #00567F;
                                 .home_name {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: clamp(2rem, 2.2rem, 3rem);
+                                    // font-size: clamp(2rem, 2.2rem + .5vw, 3rem);
                                     // font-size: 2.5rem;
+                                    font-size: 7vw;
                                     font-weight: bold;
                                 }
                                 // JOB TITLE
@@ -99,9 +101,11 @@ $learnmoretext: #00567F;
                                     background-color: $portfolios;
                                     p {
                                         color: $jobdescription;
+                                        color: $learnmoregrey;
                                         font-family: 'Roboto', sans-serif;
-                                        font-size: clamp(1rem, 1.5rem, 2rem);
+                                        // font-size: clamp(1rem, 1.5rem, 2rem);
                                         // font-size: 1rem;
+                                        font-size: 5vw;
                                         padding: 1vh 5vw 1vh 5vw;
                                     }
                                 }
@@ -111,7 +115,9 @@ $learnmoretext: #00567F;
                                 p {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: clamp(1rem, 1.2rem, 1.5rem);
+                                    font-weight: bold;
+                                    // font-size: clamp(1rem, 1.2rem, 1.5rem);
+                                    font-size: 4vw;
                                 }
                             }
                             // LEARN MORE
@@ -125,14 +131,16 @@ $learnmoretext: #00567F;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                box-shadow: 2px 2px 2px 2px black;
                                 a {
                                     color: white;
-                                    color: $darkblue;
-                                    color: $jobdescription;
+                                    // color: $darkblue;
+                                    // color: $jobdescription;
                                     text-decoration: none;
                                     font-family: 'Roboto', sans-serif;
-                                    font-size: clamp(.5rem, 1.2rem, 2rem);
-                                    // font-weight: bold;
+                                    // font-size: clamp(.5rem, 1.2rem, 2rem);
+                                    font-size: 4vw;
+                                    font-weight: lighter;
                                     padding: 5vh 20vw 5vh 20vw;
                                 }
                             }
@@ -147,7 +155,7 @@ $learnmoretext: #00567F;
 // MOBILE LANDSCAPE
 @media only screen and (orientation: landscape) {
     body {
-        background-color: $nextgreen;
+        background-color: $darkblue;
         .container {
             // HOME SECTION
             #home_section_id {
@@ -220,9 +228,12 @@ $learnmoretext: #00567F;
                                     background-color: $portfolios;
                                     p {
                                         color: $jobdescription;
-                                        font-family: 'Roboto', sans-serif;
+                                        color: $learnmoregrey;
+                                        // font-family: 'Roboto', sans-serif;
                                         font-size: clamp(1rem, 1.2rem, 1.5rem);
-                                        padding: 1vh 5vw 1vh 5vw;
+                                        // font-size: 2vw;
+                                        font-weight: lighter;
+                                        padding: 3vh 5vw 3vh 5vw;
                                     }
                                 }
                             }
@@ -241,19 +252,21 @@ $learnmoretext: #00567F;
                                 border-radius: 5px;
                                 background-color: $portfolios;
                                 // background-color: white;
-                                height: 5vh;
+                                height: 10vh;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                box-shadow: 2px 2px 2px 2px black;
+
                                 a {
                                     color: white;
-                                    color: $darkblue;
-                                    color: $jobdescription;
+                                    // color: $darkblue;
+                                    // color: $jobdescription;
                                     text-decoration: none;
-                                    font-family: 'Roboto', sans-serif;
-                                    font-size: clamp(.5rem, 1.2rem, 2rem);
-                                    // font-weight: bold;
-                                    padding: 5vh 20vw 5vh 20vw;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: clamp(.5rem, 1rem, 2rem);
+                                    font-weight: lighter;
+                                    padding: 0vh 10vw 0vh 10vw;
                                 }
                             }
                         }
