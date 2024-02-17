@@ -38,6 +38,9 @@ $learnmoregrey: rgb(148, 151, 197);
             // HOME SECTION
             #home_section_id {
                 .home_section_class {
+                    .home_navbar {
+                        display: none;
+                    }
                     background-color: $darkblue;
                     height: 100vh;
                     display: flex;
@@ -160,6 +163,9 @@ $learnmoregrey: rgb(148, 151, 197);
             // HOME SECTION
             #home_section_id {
                 .home_section_class {
+                    .home_navbar {
+                        display: none;
+                    }
                     background-color: #146166;
                     background-color: $darkblue;
                     height: 100vh;
@@ -169,7 +175,7 @@ $learnmoregrey: rgb(148, 151, 197);
                     .home_section_content {
                         color: white;
                         font-family: 'Inter', sans-serif;
-                        font-size: clamp(2rem, 2.2rem, 3rem);
+                        // font-size: clamp(2rem, 2.2rem, 3rem);
                         // font-size: 2.5rem;
                         font-weight: bold;
                         display: flex;
@@ -233,7 +239,7 @@ $learnmoregrey: rgb(148, 151, 197);
                                         font-size: clamp(1rem, 1.2rem, 1.5rem);
                                         // font-size: 2vw;
                                         font-weight: lighter;
-                                        padding: 3vh 5vw 3vh 5vw;
+                                        padding: 2vh 5vw 2vh 5vw;
                                     }
                                 }
                             }
@@ -257,7 +263,6 @@ $learnmoregrey: rgb(148, 151, 197);
                                 justify-content: center;
                                 align-items: center;
                                 box-shadow: 2px 2px 2px 2px black;
-
                                 a {
                                     color: white;
                                     // color: $darkblue;
@@ -267,6 +272,97 @@ $learnmoregrey: rgb(148, 151, 197);
                                     font-size: clamp(.5rem, 1rem, 2rem);
                                     font-weight: lighter;
                                     padding: 0vh 10vw 0vh 10vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP 
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: $darkblue;
+        .container {
+            // display: none;
+            // HOME SECTION
+            #home_section_id {
+                // NAVBAR DESKTOP
+                .home_navbar {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: right;
+                    padding: 3vh;
+                    // background-color: #00567F;
+                    ul {
+                        display: flex;
+                        gap: 2vw;
+                        text-decoration: none;
+                        li {
+                            list-style: none;
+                            font-size: clamp(1rem, 1.6rem, 1.8rem);
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;                                }
+                        }
+                    }
+                }
+                .home_section_class {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: $darkblue;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: -8vh 0 0 0;
+                    .home_section_content {
+                        gap: 12vw;
+                        .back_head_shot {
+                            width: 25vw;
+                            height: 25vw;
+                            .home_headshot {
+                                width: 23vw;
+                                height: 23vw;
+                                #headshot {
+                                    width: 21vw;
+                                    height: 21vw;
+                                }
+                            }
+                        }
+                        .home_section_words {
+                            .name_and_title {
+                                // NAME
+                                .home_name {
+                                    font-size: clamp(2rem, 3.5rem, 4rem);
+                                    // font-size: 3vw;
+                                }
+                                // JOB TITLE
+                                .home_title {
+                                    p {
+                                        font-size: clamp(1rem, 1.8rem, 2rem);
+                                    }
+                                }
+                            }
+                            // SLOGAN
+                            .home_slogan {
+                                p {
+                                    font-size: clamp(1rem, 1.5rem, 2rem);
+                                }
+                            }
+                            // LEARN MORE
+                            .learn_more {
+                                height: 6vh;
+                                width: 25vw;
+                                a {
+                                    width: 25vw;
+                                    font-size: clamp(.8rem, 1.1rem, 1.8rem);
                                 }
                             }
                         }
