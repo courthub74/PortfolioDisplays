@@ -9,15 +9,15 @@
   body {
     background-color: #080E2F;
   }
+  body .container .home_navbar {
+    display: none;
+  }
   body .container #home_section_id .home_section_class {
     background-color: #080E2F;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  body .container #home_section_id .home_section_class .home_navbar {
-    display: none;
   }
   body .container #home_section_id .home_section_class .home_section_content {
     display: flex;
@@ -75,8 +75,7 @@
     background-color: #36395D;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
-    color: #00C6C3;
-    color: rgb(148, 151, 197);
+    color: #8081AA;
     font-family: "Roboto", sans-serif;
     font-size: 5vw;
     padding: 1vh 5vw 1vh 5vw;
@@ -110,6 +109,9 @@
   body {
     background-color: #080E2F;
   }
+  body .container .home_navbar {
+    display: none;
+  }
   body .container #home_section_id .home_section_class {
     background-color: #146166;
     background-color: #080E2F;
@@ -117,9 +119,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  body .container #home_section_id .home_section_class .home_navbar {
-    display: none;
   }
   body .container #home_section_id .home_section_class .home_section_content {
     color: white;
@@ -178,8 +177,7 @@
     background-color: #36395D;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
-    color: #00C6C3;
-    color: rgb(148, 151, 197);
+    color: #8081AA;
     font-size: 1.2rem;
     font-weight: lighter;
     padding: 2vh 5vw 2vh 5vw;
@@ -187,7 +185,7 @@
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
     border: 1px solid #36395D;
@@ -212,23 +210,24 @@
   body {
     background-color: #080E2F;
   }
-  body .container #home_section_id .home_navbar {
+  body .container .home_navbar {
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: right;
     padding: 3vh;
+    margin: 2vh 12vw 0 0;
   }
-  body .container #home_section_id .home_navbar ul {
+  body .container .home_navbar ul {
     display: flex;
-    gap: 2vw;
+    gap: 1.5vw;
     text-decoration: none;
   }
-  body .container #home_section_id .home_navbar ul li {
+  body .container .home_navbar ul li {
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
-  body .container #home_section_id .home_navbar ul li a {
+  body .container .home_navbar ul li a {
     text-decoration: none;
     color: white;
     font-family: "Inter", sans-serif;
@@ -245,7 +244,7 @@
     margin: -8vh 0 0 0;
   }
   body .container #home_section_id .home_section_class .home_section_content {
-    gap: 12vw;
+    gap: 8vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .back_head_shot {
     width: 25vw;
@@ -260,20 +259,19 @@
     height: 21vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_name {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_title p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
     height: 6vh;
     width: 25vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
-    width: 25vw;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -16,8 +16,10 @@ $skillsteal: #146166;
 $boxshadowcircles: rgba(0, 0, 0, 0.521);
 // Job Descriptions
 $jobdescription: #00C6C3;
+$jobdescripgrey: #8081AA;
 // First Blue
 $firstblue: #58a6ff;
+// 
 
 // Learn More
 $learnmoretext: #00567F;
@@ -35,12 +37,12 @@ $learnmoregrey: rgb(148, 151, 197);
     body {
         background-color: $darkblue;
         .container {
+            .home_navbar {
+                display: none;
+            }
             // HOME SECTION
             #home_section_id {
                 .home_section_class {
-                    .home_navbar {
-                        display: none;
-                    }
                     background-color: $darkblue;
                     height: 100vh;
                     display: flex;
@@ -103,8 +105,9 @@ $learnmoregrey: rgb(148, 151, 197);
                                     border-radius: 5px;
                                     background-color: $portfolios;
                                     p {
-                                        color: $jobdescription;
-                                        color: $learnmoregrey;
+                                        // color: $jobdescription;
+                                        // color: $learnmoregrey;
+                                        color: $jobdescripgrey;
                                         font-family: 'Roboto', sans-serif;
                                         // font-size: clamp(1rem, 1.5rem, 2rem);
                                         // font-size: 1rem;
@@ -160,12 +163,12 @@ $learnmoregrey: rgb(148, 151, 197);
     body {
         background-color: $darkblue;
         .container {
+            .home_navbar {
+                display: none;
+            }
             // HOME SECTION
             #home_section_id {
                 .home_section_class {
-                    .home_navbar {
-                        display: none;
-                    }
                     background-color: #146166;
                     background-color: $darkblue;
                     height: 100vh;
@@ -233,8 +236,9 @@ $learnmoregrey: rgb(148, 151, 197);
                                     border-radius: 5px;
                                     background-color: $portfolios;
                                     p {
-                                        color: $jobdescription;
-                                        color: $learnmoregrey;
+                                        // color: $jobdescription;
+                                        // color: $learnmoregrey;
+                                        color: $jobdescripgrey;
                                         // font-family: 'Roboto', sans-serif;
                                         font-size: clamp(1rem, 1.2rem, 1.5rem);
                                         // font-size: 2vw;
@@ -248,7 +252,7 @@ $learnmoregrey: rgb(148, 151, 197);
                                 p {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: clamp(1rem, 1.2rem, 1.5rem);
+                                    font-size: clamp(1rem, 1rem, 1.5rem);
                                 }
                             }
                             // LEARN MORE
@@ -288,31 +292,32 @@ $learnmoregrey: rgb(148, 151, 197);
         background-color: $darkblue;
         .container {
             // display: none;
-            // HOME SECTION
-            #home_section_id {
-                // NAVBAR DESKTOP
-                .home_navbar {
-                    text-decoration: none;
+             // NAVBAR DESKTOP
+             .home_navbar {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                padding: 3vh;
+                margin: 2vh 12vw 0 0;
+                // background-color: #00567F;
+                ul {
                     display: flex;
-                    align-items: center;
-                    justify-content: right;
-                    padding: 3vh;
-                    // background-color: #00567F;
-                    ul {
-                        display: flex;
-                        gap: 2vw;
-                        text-decoration: none;
-                        li {
-                            list-style: none;
-                            font-size: clamp(1rem, 1.6rem, 1.8rem);
-                            a {
-                                text-decoration: none;
-                                color: white;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;                                }
-                        }
+                    gap: 1.5vw;
+                    text-decoration: none;
+                    li {
+                        list-style: none;
+                        font-size: clamp(1rem, 1.4rem, 1.8rem);
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;                                }
                     }
                 }
+            }
+            // HOME SECTION
+            #home_section_id {
                 .home_section_class {
                     display: flex;
                     flex-direction: column;
@@ -323,7 +328,7 @@ $learnmoregrey: rgb(148, 151, 197);
                     justify-content: center;
                     margin: -8vh 0 0 0;
                     .home_section_content {
-                        gap: 12vw;
+                        gap: 8vw;
                         .back_head_shot {
                             width: 25vw;
                             height: 25vw;
@@ -340,20 +345,21 @@ $learnmoregrey: rgb(148, 151, 197);
                             .name_and_title {
                                 // NAME
                                 .home_name {
-                                    font-size: clamp(2rem, 3.5rem, 4rem);
+                                    font-size: clamp(2rem, 3rem, 4rem);
                                     // font-size: 3vw;
                                 }
                                 // JOB TITLE
                                 .home_title {
                                     p {
-                                        font-size: clamp(1rem, 1.8rem, 2rem);
+                                        font-size: clamp(1rem, 1.4rem, 2rem);
+                                        
                                     }
                                 }
                             }
                             // SLOGAN
                             .home_slogan {
                                 p {
-                                    font-size: clamp(1rem, 1.5rem, 2rem);
+                                    font-size: clamp(1rem, 1.2rem, 2rem);
                                 }
                             }
                             // LEARN MORE
@@ -361,8 +367,10 @@ $learnmoregrey: rgb(148, 151, 197);
                                 height: 6vh;
                                 width: 25vw;
                                 a {
-                                    width: 25vw;
-                                    font-size: clamp(.8rem, 1.1rem, 1.8rem);
+                                    // width: 25vw;
+                                    font-size: clamp(.8rem, 1rem, 1.8rem);
+                                    // font-size: 1vw;
+                                    // background-color: #00C6C3;
                                 }
                             }
                         }
