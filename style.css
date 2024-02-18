@@ -104,6 +104,51 @@
     font-weight: lighter;
     padding: 5vh 20vw 5vh 20vw;
   }
+  body .container #about_section_id .about_section_class {
+    background-color: #00313E;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  body .container #about_section_id .about_section_class .about_section_content {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 5vh 0 0 0;
+    width: 80%;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .section_title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo #courdevs_about_logo {
+    width: 35vw;
+    height: 35vw;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div #dload_resume {
+    border: 1px solid #146166;
+    border-radius: 5px;
+    background-color: #507E81;
+    background-color: #146166;
+    margin: 4vh 0 0 0;
+    width: 80vw;
+    height: 5vh;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  }
 }
 @media only screen and (orientation: landscape) {
   body {
@@ -205,6 +250,53 @@
     font-weight: lighter;
     padding: 0vh 10vw 0vh 10vw;
   }
+  body .container #about_section_id .about_section_class {
+    background-color: #00313E;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+  }
+  body .container #about_section_id .about_section_class .about_section_content {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 7vh 0 0 0;
+    width: 80%;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .section_title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 1.1rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo #courdevs_about_logo {
+    width: 18vw;
+    height: 18vw;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div #dload_resume {
+    border: 1px solid #146166;
+    border-radius: 5px;
+    background-color: #507E81;
+    background-color: #146166;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+    margin: 4vh 0 0 0;
+    width: 80vw;
+    height: 12vh;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  }
 }
 @media only screen and (min-width: 992px) {
   body {
@@ -229,7 +321,7 @@
     display: flex;
     gap: 1.5vw;
     text-decoration: none;
-    margin: -8vh 10vw 0 0;
+    margin: -8vh 9vw 0 0;
   }
   body .container .home_navbar ul li {
     list-style: none;
@@ -245,26 +337,26 @@
     display: flex;
     flex-direction: column;
     background-color: #080E2F;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   body .container #home_section_id .home_section_class .home_section_content {
-    gap: 13vw;
+    gap: 11vw;
     margin: -15vh 0 0 0;
   }
   body .container #home_section_id .home_section_class .home_section_content .back_head_shot {
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 30vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .back_head_shot .home_headshot {
-    width: 23vw;
-    height: 23vw;
+    width: 28vw;
+    height: 28vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .back_head_shot .home_headshot #headshot {
-    width: 21vw;
-    height: 21vw;
+    width: 26vw;
+    height: 26vw;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_name {
     font-size: 3rem;
@@ -281,5 +373,12 @@
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
     font-size: 1.1rem;
+  }
+  body .container #about_section_id .about_section_class {
+    background-color: #00313E;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */

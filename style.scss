@@ -154,6 +154,62 @@ $learnmoregrey: rgb(148, 151, 197);
                     }
                 }
             }
+            // ABOUT SECTION
+            #about_section_id {
+                .about_section_class {
+                    background-color: $nextgreen;
+                    height: 100vh;
+                    display: flex;
+                    // align-items: center;
+                    justify-content: center;
+                    .about_section_content {
+                        display: flex;
+                        flex-direction: column; 
+                        gap: 3vh;
+                        margin: 5vh 0 0 0;
+                        width: 80%;
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            color: white;
+                            font-size: clamp(2rem, 2.5rem, 3rem);
+                        }
+                        .about_section_words {
+                            display: flex;
+                            flex-direction: column; 
+                            gap: 3vh;
+                            font-family: 'Roboto', sans-serif;
+                            color: white;
+                            .about_logo {
+                                #courdevs_about_logo {
+                                    width: 35vw;
+                                    height: 35vw;
+                                }
+                            }
+                        }
+                        // Download Resume Button
+                        .resume_button_div {
+                            #dload_resume {
+                                // border: 2px solid $resumebutton;
+                                border: 1px solid $skillsteal;
+                                border-radius: 5px;
+                                background-color: $resumebutton;
+                                background-color: $skillsteal;
+                                // box-shadow: 2px 2px 2px 2px $boxshadowcircles;
+                                margin: 4vh 0 0 0;
+                                width: 80vw;
+                                height: 5vh;
+                                color: white;
+                                text-decoration: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -282,6 +338,63 @@ $learnmoregrey: rgb(148, 151, 197);
                     }
                 }
             }
+            // ABOUT SECTION 
+            #about_section_id {
+                .about_section_class {
+                    background-color: $nextgreen;
+                    height: 170vh;
+                    display: flex;
+                    // align-items: center;
+                    justify-content: center;
+                    .about_section_content {
+                        display: flex;
+                        flex-direction: column; 
+                        gap: 3vh;
+                        margin: 7vh 0 0 0;
+                        width: 80%;
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            color: white;
+                            font-size: clamp(2rem, 2.5rem, 3rem);
+                        }
+                        .about_section_words {
+                            display: flex;
+                            flex-direction: column; 
+                            gap: 3vh;
+                            font-family: 'Roboto', sans-serif;
+                            color: white;
+                            font-size: clamp(1rem, 1.1rem, 3rem);
+                            .about_logo {
+                                #courdevs_about_logo {
+                                    width: 18vw;
+                                    height: 18vw;
+                                }
+                            }
+                        }
+                        // Download Resume Button
+                        .resume_button_div {
+                            #dload_resume {
+                                // border: 2px solid $resumebutton;
+                                border: 1px solid $skillsteal;
+                                border-radius: 5px;
+                                background-color: $resumebutton;
+                                background-color: $skillsteal;
+                                box-shadow: 2px 2px 2px 2px $boxshadowcircles;
+                                margin: 4vh 0 0 0;
+                                width: 80vw;
+                                height: 12vh;
+                                color: white;
+                                text-decoration: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -314,7 +427,7 @@ $learnmoregrey: rgb(148, 151, 197);
                     display: flex;
                     gap: 1.5vw;
                     text-decoration: none;
-                    margin: -8vh 10vw 0 0;
+                    margin: -8vh 9vw 0 0;
                     li {
                         list-style: none;
                         font-size: clamp(1rem, 1.4rem, 1.8rem);
@@ -332,23 +445,23 @@ $learnmoregrey: rgb(148, 151, 197);
                     display: flex;
                     flex-direction: column;
                     background-color: $darkblue;
-                    height: 70vh;
+                    height: 75vh;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     // margin: -8vh 0 0 0;
                     .home_section_content {
-                        gap: 13vw;
+                        gap: 11vw;
                         margin: -15vh 0 0 0;
                         .back_head_shot {
-                            width: 25vw;
-                            height: 25vw;
+                            width: 30vw;
+                            height: 30vw;
                             .home_headshot {
-                                width: 23vw;
-                                height: 23vw;
+                                width: 28vw;
+                                height: 28vw;
                                 #headshot {
-                                    width: 21vw;
-                                    height: 21vw;
+                                    width: 26vw;
+                                    height: 26vw;
                                 }
                             }
                         }
@@ -386,6 +499,16 @@ $learnmoregrey: rgb(148, 151, 197);
                             }
                         }
                     }
+                }
+            }
+            // ABOUT SECTION 
+            #about_section_id {
+                .about_section_class {
+                    background-color: $nextgreen;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
         }
