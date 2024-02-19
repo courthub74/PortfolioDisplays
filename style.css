@@ -458,6 +458,7 @@
     font-weight: bold;
     color: white;
     font-size: 3.8rem;
+    margin: 0 0 3vh 0;
   }
   body .container #about_section_id .about_section_class .about_section_content .about_section_words {
     display: flex;
