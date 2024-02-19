@@ -56,7 +56,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 8vh;
+    gap: 6vh;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title {
     display: flex;
@@ -84,25 +84,34 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 1.2rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
-    border: 1px solid #36395D;
-    border-radius: 5px;
-    background-color: #36395D;
-    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px black;
+    height: 4vh;
+    width: 35vw;
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 4vw;
-    font-weight: lighter;
-    padding: 5vh 20vw 5vh 20vw;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a p {
+    color: #080E2F;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a #down_arrow_learn {
+    width: 6vw;
+    height: 6vw;
   }
   body .container #about_section_id .about_section_class {
     background-color: #00313E;
@@ -131,23 +140,35 @@
     color: white;
   }
   body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo #courdevs_about_logo {
-    width: 35vw;
-    height: 35vw;
+    width: 30vw;
+    height: 30vw;
   }
-  body .container #about_section_id .about_section_class .about_section_content .resume_button_div #dload_resume {
-    border: 1px solid #146166;
-    border-radius: 5px;
-    background-color: #507E81;
-    background-color: #146166;
-    margin: 4vh 0 0 0;
-    width: 80vw;
-    height: 5vh;
-    color: white;
-    text-decoration: none;
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 5vh;
+    width: 80vw;
+    border: 1px solid #146166;
+    border-radius: 5px;
+    background-color: #146166;
+    margin: 7vh 0 0 0;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    text-decoration: none;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a p {
+    color: white;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a #dload_resume_logo {
+    width: 7vw;
+    height: 7vw;
   }
 }
 @media only screen and (orientation: landscape) {
@@ -233,26 +254,35 @@
     font-size: 1rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
-    border: 1px solid #36395D;
-    border-radius: 5px;
-    background-color: #36395D;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px black;
+    height: 10vh;
+    width: 20vw;
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-decoration: none;
-    font-family: "Inter", sans-serif;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a p {
+    color: #080E2F;
     font-size: 1rem;
-    font-weight: lighter;
-    padding: 0vh 10vw 0vh 10vw;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a #down_arrow_learn {
+    width: 3vw;
+    height: 3vw;
   }
   body .container #about_section_id .about_section_class {
     background-color: #00313E;
-    height: 170vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
   }
@@ -277,25 +307,40 @@
     color: white;
     font-size: 1.1rem;
   }
-  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo #courdevs_about_logo {
-    width: 18vw;
-    height: 18vw;
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo {
+    margin: 5vh 0 5vh 0;
   }
-  body .container #about_section_id .about_section_class .about_section_content .resume_button_div #dload_resume {
-    border: 1px solid #146166;
-    border-radius: 5px;
-    background-color: #507E81;
-    background-color: #146166;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
-    margin: 4vh 0 0 0;
-    width: 80vw;
-    height: 12vh;
-    color: white;
-    text-decoration: none;
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo #courdevs_about_logo {
+    width: 15vw;
+    height: 15vw;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 12vh;
+    width: 80vw;
+    border: 1px solid #146166;
+    border-radius: 5px;
+    background-color: #146166;
+    margin: 7vh 0 0 0;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    text-decoration: none;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a p {
+    color: white;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a #dload_resume_logo {
+    width: 4vw;
+    height: 4vw;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -366,13 +411,34 @@
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
     font-size: 1.2rem;
+    font-size: 2rem;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
-    height: 6vh;
-    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
   }
   body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
-    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a p {
+    color: #080E2F;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a #down_arrow_learn {
+    width: 1.5vw;
+    height: 1.5vw;
   }
   body .container #about_section_id .about_section_class {
     background-color: #00313E;
@@ -380,5 +446,60 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  body .container #about_section_id .about_section_class .about_section_content {
+    display: flex;
+    flex-direction: column;
+    margin: 0vh 0 0 0;
+    width: 80%;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .section_title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 3.8rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo {
+    margin: 2vh 0 2vh 0;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .about_section_words .about_logo #courdevs_about_logo {
+    width: 8vw;
+    height: 8vw;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 20%;
+    border: 1px solid #146166;
+    border-radius: 5px;
+    background-color: #146166;
+    margin: 2vh 0 0 0;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  body .container #about_section_id .about_section_class .about_section_content .resume_button_div a #dload_resume_logo {
+    width: 2vw;
+    height: 2vw;
+    margin-left: -2vh;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -84,7 +84,7 @@ $learnmoregrey: rgb(148, 151, 197);
                             justify-content: center;
                             align-items: center;
                             text-align: center;
-                            gap: 8vh;
+                            gap: 6vh;
                             // NAME AND TITLE
                             .name_and_title {
                                 display: flex;
@@ -122,32 +122,36 @@ $learnmoregrey: rgb(148, 151, 197);
                                     color: white;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    // font-size: clamp(1rem, 1.2rem, 1.5rem);
-                                    font-size: 4vw;
+                                    font-size: clamp(1rem, 1.2rem, 1.5rem);
+                                    // font-size: 4vw;
                                 }
                             }
                             // LEARN MORE
                             .learn_more {
-                                border: 1px solid $portfolios;
-                                // border: 1px solid white;
-                                border-radius: 5px;
-                                background-color: $portfolios;
-                                // background-color: white;
-                                height: 5vh;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                box-shadow: 2px 2px 2px 2px black;
+                                height: 4vh;
+                                width: 35vw;
+                                border: 1px solid $portfolios;
+                                border-radius: 5px;
+                                background-color: $portfolios;
                                 a {
-                                    color: white;
-                                    // color: $darkblue;
-                                    // color: $jobdescription;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 100%;
                                     text-decoration: none;
-                                    font-family: 'Roboto', sans-serif;
-                                    // font-size: clamp(.5rem, 1.2rem, 2rem);
-                                    font-size: 4vw;
-                                    font-weight: lighter;
-                                    padding: 5vh 20vw 5vh 20vw;
+                                    p {
+                                        color: $darkblue;
+                                        font-size: clamp(.5rem, 1rem, 1.5rem);
+                                        font-weight: bold;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                    #down_arrow_learn {
+                                        width: 6vw;
+                                        height: 6vw;
+                                    }
                                 }
                             }
                         }
@@ -182,29 +186,37 @@ $learnmoregrey: rgb(148, 151, 197);
                             color: white;
                             .about_logo {
                                 #courdevs_about_logo {
-                                    width: 35vw;
-                                    height: 35vw;
+                                    width: 30vw;
+                                    height: 30vw;
                                 }
                             }
                         }
                         // Download Resume Button
                         .resume_button_div {
-                            #dload_resume {
-                                // border: 2px solid $resumebutton;
-                                border: 1px solid $skillsteal;
-                                border-radius: 5px;
-                                background-color: $resumebutton;
-                                background-color: $skillsteal;
-                                // box-shadow: 2px 2px 2px 2px $boxshadowcircles;
-                                margin: 4vh 0 0 0;
-                                width: 80vw;
-                                height: 5vh;
-                                color: white;
-                                text-decoration: none;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 5vh;
+                            width: 80vw;
+                            border: 1px solid $skillsteal;
+                            border-radius: 5px;
+                            background-color: $skillsteal;
+                            margin: 7vh 0 0 0;
+                            a {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                font-family: 'Inter', sans-serif;
+                                gap: 2vw;
+                                text-decoration: none;
+                                p {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                }
+                                #dload_resume_logo {
+                                    width: 7vw;
+                                    height: 7vw;
+                                }
                             }
                         }
                     }
@@ -313,25 +325,30 @@ $learnmoregrey: rgb(148, 151, 197);
                             }
                             // LEARN MORE
                             .learn_more {
-                                border: 1px solid $portfolios;
-                                // border: 1px solid white;
-                                border-radius: 5px;
-                                background-color: $portfolios;
-                                // background-color: white;
-                                height: 10vh;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                box-shadow: 2px 2px 2px 2px black;
+                                height: 10vh;
+                                width: 20vw;
+                                border: 1px solid $portfolios;
+                                border-radius: 5px;
+                                background-color: $portfolios;
                                 a {
-                                    color: white;
-                                    // color: $darkblue;
-                                    // color: $jobdescription;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 100%;
                                     text-decoration: none;
-                                    font-family: 'Inter', sans-serif;
-                                    font-size: clamp(.5rem, 1rem, 2rem);
-                                    font-weight: lighter;
-                                    padding: 0vh 10vw 0vh 10vw;
+                                    p {
+                                        color: $darkblue;
+                                        font-size: clamp(.5rem, 1rem, 1.5rem);
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                    }
+                                    #down_arrow_learn {
+                                        width: 3vw;
+                                        height: 3vw;
+                                    }
                                 }
                             }
                         }
@@ -342,7 +359,7 @@ $learnmoregrey: rgb(148, 151, 197);
             #about_section_id {
                 .about_section_class {
                     background-color: $nextgreen;
-                    height: 170vh;
+                    height: 200vh;
                     display: flex;
                     // align-items: center;
                     justify-content: center;
@@ -366,30 +383,40 @@ $learnmoregrey: rgb(148, 151, 197);
                             color: white;
                             font-size: clamp(1rem, 1.1rem, 3rem);
                             .about_logo {
+                                margin: 5vh 0 5vh 0;
                                 #courdevs_about_logo {
-                                    width: 18vw;
-                                    height: 18vw;
+                                    width: 15vw;
+                                    height: 15vw;
                                 }
                             }
                         }
                         // Download Resume Button
                         .resume_button_div {
-                            #dload_resume {
-                                // border: 2px solid $resumebutton;
-                                border: 1px solid $skillsteal;
-                                border-radius: 5px;
-                                background-color: $resumebutton;
-                                background-color: $skillsteal;
-                                box-shadow: 2px 2px 2px 2px $boxshadowcircles;
-                                margin: 4vh 0 0 0;
-                                width: 80vw;
-                                height: 12vh;
-                                color: white;
-                                text-decoration: none;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 12vh;
+                            width: 80vw;
+                            border: 1px solid $skillsteal;
+                            border-radius: 5px;
+                            background-color: $skillsteal;
+                            margin: 7vh 0 0 0;
+                            a {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                font-family: 'Inter', sans-serif;
+                                gap: 1.5vw;
+                                text-decoration: none;
+                                p {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    font-size: clamp(1rem, 1.1rem, 2rem);
+                                }
+                                #dload_resume_logo {
+                                    width: 4vw;
+                                    height: 4vw;
+                                }
                             }
                         }
                     }
@@ -476,7 +503,6 @@ $learnmoregrey: rgb(148, 151, 197);
                                 .home_title {
                                     p {
                                         font-size: clamp(1rem, 1.4rem, 2rem);
-                                        
                                     }
                                 }
                             }
@@ -484,17 +510,35 @@ $learnmoregrey: rgb(148, 151, 197);
                             .home_slogan {
                                 p {
                                     font-size: clamp(1rem, 1.2rem, 2rem);
+                                    font-size: clamp(2rem, 2rem, 3rem);
                                 }
                             }
                             // LEARN MORE
                             .learn_more {
-                                height: 6vh;
-                                width: 25vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 5vh;
+                                width: 10vw;
+                                border: 1px solid $portfolios;
+                                border-radius: 5px;
+                                background-color: $portfolios;
                                 a {
-                                    // width: 25vw;
-                                    font-size: clamp(.8rem, 1.1rem, 1.8rem);
-                                    // font-size: 1vw;
-                                    // background-color: #00C6C3;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 100%;
+                                    text-decoration: none;
+                                    p {
+                                        color: $darkblue;
+                                        font-size: clamp(.5rem, 1.3rem, 1.5rem);
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                    }
+                                    #down_arrow_learn {
+                                        width: 1.5vw;
+                                        height: 1.5vw;
+                                    }
                                 }
                             }
                         }
@@ -509,6 +553,63 @@ $learnmoregrey: rgb(148, 151, 197);
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    .about_section_content {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0vh 0 0 0;
+                        width: 80%;
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            color: white;
+                            font-size: clamp(2rem, 3.8rem, 4rem);
+                        }
+                        .about_section_words {
+                            display: flex;
+                            flex-direction: column; 
+                            gap: 3vh;
+                            font-family: 'Roboto', sans-serif;
+                            color: white;
+                            font-size: clamp(1rem, 1.5rem, 3rem);
+                            .about_logo {
+                                margin: 2vh 0 2vh 0;
+                                #courdevs_about_logo {
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                            }
+                        }
+                        // Download Resume Button
+                        .resume_button_div {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 7vh;
+                            width: 20%;
+                            border: 1px solid $skillsteal;
+                            border-radius: 5px;
+                            background-color: $skillsteal;
+                            margin: 2vh 0 0 0;
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-decoration: none;
+                                p {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    // font-size: clamp(1rem, 1.5rem, 2rem);
+                                    font-size: clamp(.5rem, 1.3rem, 1.5rem);
+                                }
+                                #dload_resume_logo {
+                                    width: 2vw;
+                                    height: 2vw;
+                                    margin-left: -2vh;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
